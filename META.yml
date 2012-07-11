@@ -1,5 +1,5 @@
 ---
-abstract: 'Read and write INIPlus config files'
+abstract: 'Read and write INI-style config files with structure extensions'
 author:
   - 'Anthony Kilna <anthony@kilna.com>'
 build_requires:
@@ -17,7 +17,7 @@ name: Config-INIPlus
 provides:
   Config::INIPlus:
     file: lib/Config/INIPlus.pm
-    version: v1.0.1
+    version: v1.0.2
 requires:
   Carp: 0
   IO::File: 0
@@ -26,4 +26,4 @@ requires:
   perl: v5.8.0
 resources:
   license: http://dev.perl.org/licenses/
-version: v1.0.1
+version: v1.0.2
